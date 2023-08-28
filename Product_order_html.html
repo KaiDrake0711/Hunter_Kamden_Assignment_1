@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <title>Kamden Hunter - Assigment 2</title>
+    <script src="product_order.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>    
+  <h1>Kamden Hunter - Assignment 2</h1>
+    <label for="product">product:</label>
+    <select id="product" name="product">
+      <option value="iPad">iPad</option>
+      <option value="iPhone 6S">iPhone 6S</option>
+      <option value="Galaxy 55">Galaxy 55</option>
+      <option value="Moto X">Moto X</option>
+    </select><br>
+
+    <label for="quantity">quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br>
+    
+    <label for="unit_price">unit price:</label>
+    <input type="number" id="unit_price" name="unit_price"><br>
+    
+    <label for="discount_rate">discount (%):</label>
+    <input type="number" id="discount_rate" name="discount_rate"><br>
+    
+    <label for="order_date">date:</label>
+    <input type="date" id="order_date" name="order_date"><br>
+    
+    <label for="first_name">first name:</label>
+    <input type="text" id="first_name" name="first_name"><br>
+    
+    <label for="last_name">last name:</label>
+    <input type="text" id="last_name" name="last_name"><br>
+    
+    <label for="payment_type">payment type:</label>
+    <select id="payment_type" name="payment_type">
+      <option value="Visa">Visa</option>
+      <option value="Master">Master</option>
+      <option value="Discover">Discover</option>
+      <option value="Amex">Amex</option>
+    </select><br>
+
+    <label for="card_number">card number:</label>
+    <input type="text" id="card_number" name="card_number"><br>
+    
+    <label for="security_code">security code:</label>
+    <input type="text" id="security_code" name="security_code"><br>
+    
+    <input type="button" id="order_button" value="Place Order">
+  </form>
+  
+  <div id="output"></div>
+</body>
+</html>
